@@ -13,7 +13,7 @@ class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        // int result = solution.reverse(1534236469);
-        System.out.println(-12%10);
+        int result = solution.reverse(1534236469);
+        System.out.println(result);
     }
 }
