@@ -2,7 +2,7 @@
 
 public static class Utility
 {
-    public static void Print<T>(this IEnumerable<T> enumerable)
+    public static void Dump<T>(this IEnumerable<T> enumerable)
     {
         Console.WriteLine(string.Join(',', enumerable));
     }
