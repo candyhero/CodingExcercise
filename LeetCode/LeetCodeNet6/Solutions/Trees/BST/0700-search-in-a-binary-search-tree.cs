@@ -12,7 +12,7 @@ public class Solution700
     {
         if (root == null) return null;
         if (root.val == val) return root;
-        else if (root.val < val) return SearchBST(root.right, val);
-        else return SearchBST(root.left, val);
+        if (root.val < val) return SearchBST(root.right, val);
+        return SearchBST(root.left, val);
     }
 }
